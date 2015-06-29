@@ -1,3 +1,13 @@
+// ==UserScript==
+// @name         Derpibooru Header bar
+// @downloadURL  https://raw.githubusercontent.com/chao-master/UserScripts/master/derpibooru.js
+// @namespace    http://chao-master.github.com
+// @version      0.1
+// @description  Adjusts the header bar and navigation bar on derpibooru so they sit on one line
+// @match        https://derpiboo.ru/*
+// @grant        none
+// ==/UserScript==
+
 $("#navigation").insertAfter(".home");
 $("#header>*").css("display","inline");
 
